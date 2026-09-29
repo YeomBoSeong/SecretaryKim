@@ -1,0 +1,32 @@
+# 비밀 값
+.env
+.env.*
+!.env.example
+local.properties
+*.jks
+*.keystore
+
+# 배포/빌드 산출물
+node_modules/
+.next/
+.vercel/
+build/
+.gradle/
+.kotlin/
+*.tsbuildinfo
+__pycache__/
+*.apk
+
+# 도구·로컬 설정
+CLAUDE.md
+tools/
+.claude/
+.agents/
+.playwright-mcp/
+
+# 개발 중 생긴 스크린샷/UI덤프
+/android/*.png
+/android/*.xml
+/adb_test/*.png
+/adb_test/experiment/*.png
+/backend/subscription_after_reinstall.png

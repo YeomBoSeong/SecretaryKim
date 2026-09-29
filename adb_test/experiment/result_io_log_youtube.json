@@ -1,0 +1,143 @@
+{
+  "method": "io_log_youtube",
+  "steps": 10,
+  "api_calls": 10,
+  "total_input_tokens": 57025,
+  "total_output_tokens": 1092,
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 0,
+  "total_tokens": 58117,
+  "elapsed_seconds": 53.1,
+  "tool_calls": [
+    {
+      "name": "key_event",
+      "input": {
+        "keycode": "HOME"
+      }
+    },
+    {
+      "name": "swipe",
+      "input": {
+        "x1": 236,
+        "y1": 900,
+        "x2": 236,
+        "y2": 300
+      }
+    },
+    {
+      "name": "tap",
+      "input": {
+        "x": 236,
+        "y": 899
+      }
+    },
+    {
+      "name": "tap",
+      "input": {
+        "x": 98,
+        "y": 357
+      }
+    },
+    {
+      "name": "wait",
+      "input": {
+        "seconds": 2
+      }
+    },
+    {
+      "name": "tap",
+      "input": {
+        "x": 366,
+        "y": 80
+      }
+    },
+    {
+      "name": "type_text",
+      "input": {
+        "text": "아이유 좋은날"
+      }
+    },
+    {
+      "name": "key_event",
+      "input": {
+        "keycode": "ENTER"
+      }
+    },
+    {
+      "name": "wait",
+      "input": {
+        "seconds": 2
+      }
+    },
+    {
+      "name": "finish",
+      "input": {
+        "success": true,
+        "message": "유튜브 앱을 실행하고 '아이유 좋은날'을 검색하여 검색 결과 화면을 성공적으로 표시했습니다."
+      }
+    }
+  ],
+  "per_step": [
+    {
+      "input_tokens": 2180,
+      "output_tokens": 97,
+      "cache_creation": 0,
+      "cache_read": 0
+    },
+    {
+      "input_tokens": 2949,
+      "output_tokens": 148,
+      "cache_creation": 0,
+      "cache_read": 0
+    },
+    {
+      "input_tokens": 3780,
+      "output_tokens": 114,
+      "cache_creation": 0,
+      "cache_read": 0
+    },
+    {
+      "input_tokens": 4570,
+      "output_tokens": 104,
+      "cache_creation": 0,
+      "cache_read": 0
+    },
+    {
+      "input_tokens": 5349,
+      "output_tokens": 81,
+      "cache_creation": 0,
+      "cache_read": 0
+    },
+    {
+      "input_tokens": 6100,
+      "output_tokens": 104,
+      "cache_creation": 0,
+      "cache_read": 0
+    },
+    {
+      "input_tokens": 6879,
+      "output_tokens": 88,
+      "cache_creation": 0,
+      "cache_read": 0
+    },
+    {
+      "input_tokens": 7649,
+      "output_tokens": 88,
+      "cache_creation": 0,
+      "cache_read": 0
+    },
+    {
+      "input_tokens": 8410,
+      "output_tokens": 79,
+      "cache_creation": 0,
+      "cache_read": 0
+    },
+    {
+      "input_tokens": 9159,
+      "output_tokens": 189,
+      "cache_creation": 0,
+      "cache_read": 0
+    }
+  ],
+  "task_success": true
+}
